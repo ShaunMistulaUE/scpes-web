@@ -1,0 +1,111 @@
+.body{
+    background: linear-gradient(rgb(255, 255, 255), rgb(50, 55, 151), rgb(55, 20, 212), rgb(49, 27, 169), rgb(31, 28, 211));
+    background: linear-gradient(rgb(23, 23, 23), rgb(43, 43, 43), rgb(212, 20, 20), rgb(169, 27, 27), rgb(31, 28, 211));
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    margin-bottom: 900px;
+}
+
+.mainContainer{
+    background-color: white;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: block;
+    width: fit-content;
+}
+
+.welcomeText {
+    font-size: 5em;
+    color: rgb(76, 20, 174);
+    color: rgb(174, 33, 20);
+    letter-spacing: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: 5px solid;
+    /* for animation */
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(20, end),
+        cursor .4s step-end infinite alternate;
+}
+
+.collapse {
+    float: right;
+}
+
+.nav-link{
+    color: black;
+    border-radius: 12%;
+}
+
+.nav-link:hover{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    border-radius: 15%;
+}
+
+/* Cursor Blink */
+@keyframes cursor {
+    50% { border-color: transparent; }
+}
+
+/* Typing animation */
+@keyframes typing {
+    from { width: 0; }
+}
+
+
+
+
+
+.card{
+    background-color: rgba(158, 139, 139, 0.479);   
+    margin-top: 50px;
+    height: 600px;
+    border-radius: 5%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.titleHeader{
+    font-size: 3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .welcomeText {
+        font-size: 3em;
+    }
+
+    .card{
+        background-color: rgba(255, 255, 255, 0.256);
+        margin: 0px;
+        margin-top: 50px;
+        height: 600px;
+        border-radius: 5%;
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-bottom-left-radius: 15%;
+        border-bottom-right-radius: 15%;
+    }
+    
+    .titleHeader{
+        font-size: 3em;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+}
