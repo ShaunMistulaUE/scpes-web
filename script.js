@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Re-apply the animation class
       welcomeTextElement.style.animation = 
-        'typing 2s, cursor .4s step-end infinite alternate';
+        'typing 2s steps(20), cursor .4s step-end infinite alternate';
     }
 
     // Initial text update
