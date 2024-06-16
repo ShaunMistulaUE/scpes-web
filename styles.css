@@ -11,13 +11,12 @@
     background-color: white;
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
-    padding-left: 20px;
-    padding-right: 20px;
+
 }
 
 .container {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     display: block;
     width: fit-content;
 }
@@ -38,6 +37,18 @@
         cursor .4s step-end infinite alternate;
 }
 
+.d-block{
+    filter: brightness(50%);
+    opacity: 100%;
+    margin-top: 50px;
+    min-width: 800px;
+
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
 .collapse {
     float: right;
 }
@@ -53,6 +64,11 @@
     border-radius: 15%;
 }
 
+.navbar{
+    background-color: white;
+    position: sticky;
+}
+
 /* Cursor Blink */
 @keyframes cursor {
     50% { border-color: transparent; }
@@ -62,8 +78,6 @@
 @keyframes typing {
     from { width: 0; }
 }
-
-
 
 
 
