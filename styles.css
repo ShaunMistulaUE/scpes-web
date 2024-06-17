@@ -1,6 +1,6 @@
 .body{
     background: linear-gradient(rgb(255, 255, 255), rgb(50, 55, 151), rgb(55, 20, 212), rgb(49, 27, 169), rgb(31, 28, 211));
-    background: linear-gradient(rgb(114, 34, 34), rgb(192, 39, 39), rgb(212, 20, 20), rgb(169, 27, 27), rgb(31, 28, 211));
+    background: linear-gradient(rgb(255, 255, 255), rgb(208, 170, 170), rgb(212, 20, 20), rgb(169, 27, 27), rgb(255, 255, 255));
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;
@@ -8,10 +8,16 @@
 }
 
 .mainContainer{
-    background-color: rgba(255, 255, 255, 0.863);  
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
+}
 
+.backgroundStyle{
+    background-color: rgb(255, 255, 255);
+    background-image: url(images/photos/20240226_103737.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;  
 }
 
 .container {
@@ -22,11 +28,12 @@
 }
 
 .welcomeText {
+    background-color: rgba(232, 245, 91, 0.675);
     font-size: 5em;
     color: rgb(76, 20, 174);
     color: rgb(174, 33, 20);
     letter-spacing: 5px;
-    font-family:monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-right: 5px solid;
     /* for animation */
     width: 100%;
@@ -54,6 +61,7 @@
 .nav-link{
     color: black;
     border-radius: 12%;
+    margin: 20px;
 }
 
 .nav-link:hover{
@@ -63,7 +71,8 @@
 }
 
 .navbar{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
+
 }
 
 .menuTitle{
@@ -105,20 +114,24 @@
         font-size: 2em;
     }
 
+    .mainContainer{
+        border-bottom-left-radius: 8%;
+        border-bottom-right-radius: 8%;
+    }
+
     .container {
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 350px;
+        padding-bottom: 350px;
         display: block;
         width: fit-content;
     }
 
     .card{
-        background-color:rgba(255, 255, 255, 0.863);  
+        background-color:rgb(255, 255, 255);  
         margin: 0px;
-        margin-top: 50px;
         height: 600px;
-        border-top-left-radius: 2%;
-        border-top-right-radius: 2%;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
         border-bottom-left-radius: 2%;
         border-bottom-right-radius: 2%;
     }
@@ -141,8 +154,8 @@
         margin-top: 50px;
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
-        border-bottom-left-radius: 5%;
-        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
     }
 
     .navbar-collapse{

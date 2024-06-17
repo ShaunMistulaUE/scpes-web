@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const welcomeTextElement = document.querySelector('.welcomeText');
-    const texts = ['#SoarHighCpE', '#ChooseBSCpE', '#AIWarriors', 'Join Our Events!', 'Be a Part of SCpES'];
+    const texts = ['mcDonor','#SoarHighCpE', '#ChooseBSCpE', '#AIWarriors', 'Join Our Events!', 'Be a Part of SCpES'];
     let currentIndex = 0;
 
     function updateText() {
@@ -23,5 +23,5 @@ document.addEventListener('DOMContentLoaded', function() {
     updateText();
 
     // Update text every 3 seconds
-    setInterval(updateText, 3000);
+    setInterval(updateText, 5000);
   });
